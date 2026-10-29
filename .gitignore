@@ -1,0 +1,26 @@
+# Kết quả chạy test: mỗi người tự sinh lại bằng run-tests.ps1 / run-tests.sh
+results/
+
+# Sản phẩm build (phòng khi mở thư mục này bằng IDE)
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File tạm của Word/Excel khi đang mở tài liệu
+~$*
+
+# Biến môi trường, thông tin đăng nhập (không bao giờ đưa lên)
+.env
+*.local

@@ -1,0 +1,5 @@
+# Giữ đúng kiểu xuống dòng để script chạy được trên mọi máy sau khi clone
+*.sh   text eol=lf
+*.ps1  text eol=crlf
+*.java text eol=lf
+*.md   text eol=lf
